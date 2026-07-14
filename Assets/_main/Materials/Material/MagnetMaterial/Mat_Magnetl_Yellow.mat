@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4483214453143247512
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Magnetl_Yellow
+  m_Shader: {fileID: 4800000, guid: 7ffc1bc2bbb1ef64f84b552b2d2f0619, type: 3}
+  m_Parent: {fileID: 2100000, guid: 52e1a492f220b4b44b4ccb193494e788, type: 2}
+  m_ModifiedSerializedProperties: 8
+  m_ValidKeywords:
+  - TCP2_RAMP_BANDS
+  - TCP2_REFLECTIONS_FRESNEL
+  - TCP2_RIM_LIGHTING_LIGHTMASK
+  - TCP2_SHADOW_LIGHT_COLOR
+  - TCP2_SPECULAR
+  m_InvalidKeywords:
+  - TCP2_UV_NORMALS_FULL
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 84536e55918044ae5bafeaba407a5305, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTex:
+        m_Texture: {fileID: 2800000, guid: 89da13b6c5b2314479ce9f80edc02727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FresnelMax: 2
+    - _FresnelMin: 0.74
+    - _Metallic: 0.38
+    - _RampBands: 5
+    - _RampBandsSmoothing: 0.824
+    - _RampSmoothing: 0.496
+    - _RampThreshold: 0.597
+    - _ReflectionSmoothness: 1
+    - _RimMax: 0.34
+    - _RimMin: 0.55
+    - _SpecularRoughness: 0.261
+    - _SpecularToonSize: 0.085
+    - _SpecularType: 0
+    - _UseRim: 0
+    - _UseSpecular: 1
+    m_Colors:
+    - _BaseColor: {r: 0.9254902, g: 0.62352943, b: 0.11764706, a: 1}
+    - _Color: {r: 0.8784314, g: 0.6165531, b: 0.03529414, a: 1}
+    - _HColor: {r: 0.6132076, g: 0.5256464, b: 0.26900142, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _SColor: {r: 0.5283019, g: 0.19994758, b: 0.08223568, a: 1}
+    - _SpecularColor: {r: 0.8464768, g: 0.6146032, b: 0.05190662, a: 1}
+  m_BuildTextureStacks: []

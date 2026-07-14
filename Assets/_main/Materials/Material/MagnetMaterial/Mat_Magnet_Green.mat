@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4483214453143247512
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_Magnet_Green
+  m_Shader: {fileID: 4800000, guid: 7ffc1bc2bbb1ef64f84b552b2d2f0619, type: 3}
+  m_Parent: {fileID: 2100000, guid: db2d202ed4cc4462a8252cbbfa95dfe6, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - TCP2_RAMP_BANDS
+  - TCP2_REFLECTIONS_FRESNEL
+  - TCP2_RIM_LIGHTING_LIGHTMASK
+  - TCP2_SHADOW_LIGHT_COLOR
+  - TCP2_SPECULAR
+  m_InvalidKeywords:
+  - TCP2_UV_NORMALS_FULL
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MatCapTex:
+        m_Texture: {fileID: 2800000, guid: 4a2220c954a7264459efb3be35445157, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _RampBands: 11
+    - _RampBandsSmoothing: 0.57
+    - _RampSmoothing: 0.28
+    - _RampThreshold: 0.659
+    - _SpecularRoughness: 0.368
+    - _SpecularToonSize: 0.049
+    - _UseMatCap: 0
+    m_Colors:
+    - _BaseColor: {r: 0.19533886, g: 0.6320754, b: 0.10435206, a: 1}
+    - _HColor: {r: 0.3063813, g: 0.8018868, b: 0.3162914, a: 1}
+    - _MatCapColor: {r: 0.045923818, g: 0.0754717, b: 0.05069923, a: 1}
+    - _SColor: {r: 0.0937872, g: 0.3773585, b: 0.083659664, a: 1}
+    - _SpecularColor: {r: 0.11146928, g: 0.44813475, b: 0.03593534, a: 1}
+  m_BuildTextureStacks: []
