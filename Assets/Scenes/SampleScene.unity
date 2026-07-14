@@ -842,25 +842,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7147382192123509801, guid: b14922faff0e4c648801a9003561fa8b, type: 3}
   m_PrefabInstance: {fileID: 682191535}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &719691217 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100002, guid: 0a44908b33c3a6a42b7f0310ec5f9842, type: 3}
-  m_PrefabInstance: {fileID: 986710830}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &719691221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719691217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 276e569dae7c29e4aab45c64f3916d49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PropellerSpin
-  spinAxis: {x: 0, y: 1, z: 0}
-  spinSpeed: 1080
 --- !u!1 &745759783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,10 +1193,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100002, guid: 0a44908b33c3a6a42b7f0310ec5f9842, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 719691221}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a44908b33c3a6a42b7f0310ec5f9842, type: 3}
 --- !u!4 &986710831 stripped
 Transform:

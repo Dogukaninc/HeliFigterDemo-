@@ -1,10 +1,6 @@
 using System;
 using UnityEngine;
 
-/// <summary>
-/// Menzil içindeki en yakın hedefi bulur. Movement ve Gun sistemleri
-/// bu component'ten CurrentTarget'ı okur.
-/// </summary>
 public class HelicopterTargeting : MonoBehaviour
 {
     [Header("Detection")]

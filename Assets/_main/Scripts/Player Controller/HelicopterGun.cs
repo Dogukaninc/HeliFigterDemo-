@@ -62,17 +62,26 @@ public class HelicopterGun : MonoBehaviour
         Transform muzzle = muzzles[_muzzleIndex];
         _muzzleIndex = (_muzzleIndex + 1) % muzzles.Length;
 
-        GameObject proj = Instantiate(projectilePrefab, muzzle.position, muzzle.rotation);
+        // Mermiyi namludan doğrudan hedefe doğru yönlendir.
+        Vector3 dir = muzzle.forward;
+        if (_targeting.CurrentTarget != null)
+        {
+            Vector3 toTarget = _targeting.CurrentTarget.position - muzzle.position;
+            if (toTarget.sqrMagnitude > 0.0001f)
+                dir = toTarget.normalized;
+        }
+
+        GameObject proj = Instantiate(projectilePrefab, muzzle.position, Quaternion.LookRotation(dir));
 
         // Rigidbody varsa hız ver, yoksa varsa Projectile componentine parametreleri ilet.
         if (proj.TryGetComponent(out Rigidbody rb))
         {
-            rb.linearVelocity = muzzle.forward * projectileSpeed;
+            rb.linearVelocity = dir * projectileSpeed;
         }
 
         if (proj.TryGetComponent(out Projectile p))
         {
-            p.Init(muzzle.forward * projectileSpeed, projectileDamage);
+            p.Init(dir * projectileSpeed, projectileDamage);
         }
     }
 }
